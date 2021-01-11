@@ -1,0 +1,19 @@
+{
+  "name": "cloudbricks",
+  "version": "0.1.0",
+  "description": "A IaC that actually works like code.",
+  "main": "index.js",
+  "repository": "git@github.com:ssedrick/cloudbricks.git",
+  "author": "Shem Sedrick <ssedrick1@gmail.com>",
+  "license": "The Unlicense",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/aws",
+    "packages/linode"
+  ]
+}
